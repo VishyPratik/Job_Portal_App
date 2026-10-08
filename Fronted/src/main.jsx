@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom"
 import { store } from './redux/Store.jsx'
 import { Provider } from "react-redux"
 import { ToastContainer } from 'react-toastify';
-export const serverUrl ="http://localhost:8080"
+export const serverUrl ="https://job-portal-app-x7lr.onrender.com"
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         <Provider store={store}>
