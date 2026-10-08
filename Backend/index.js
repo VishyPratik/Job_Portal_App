@@ -10,7 +10,7 @@ const applicantRouter = require("./routes/applicationRoutes")
 const app = express();
 let port = process.env.PORT || 8080;
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://job-portal-app-1-3kyq.onrender.com",
     credentials: true,
 
 }))
